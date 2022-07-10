@@ -33,4 +33,6 @@ const UsersData = () => {
   return <div>{pointUser}</div>;
 };
 
+UsersData.propTypes = {};
+
 export default UsersData;

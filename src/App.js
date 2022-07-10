@@ -5,7 +5,7 @@ import CreateWorkSpace from "./createWorkSpace/index";
 import { Routes, Route } from "react-router-dom";
 import UsersData from "./usersApiData";
 
-function App({ users }) {
+function App() {
   return (
     <div>
       <Header />
