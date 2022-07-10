@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import style from "../usersApiData/style.module.css"
 
 const UsersData = () => {
   const [users, getUsers] = useState([]);
@@ -22,7 +23,7 @@ const UsersData = () => {
   useEffect(() => {
     const pointUsers = users?.map((user) => {
       return (
-        <div key={user.id}>
+        <div key={user.id} className={style.pointUsersStyle}>
           <p>{user.name}</p>
         </div>
       );

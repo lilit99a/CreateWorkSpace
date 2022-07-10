@@ -1,15 +1,12 @@
 .navBar {
   display: flex;
-  justify-content: space-evenly;
-  list-style: none;
   margin-left: 50px;
-}
-
-.navBar li {
-  margin-right: 30px;
-  color: #000000;
+  margin-top: 20px;
 }
 .navBar :hover {
   cursor: pointer;
   color: crimson;
+}
+.active {
+  margin-right: 50px;
 }
