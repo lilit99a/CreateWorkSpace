@@ -21,10 +21,12 @@ const CreateWorkSpace = () => {
         <button className={style.whatchVideo}>Whatch video</button>
       </div>
       <div>
-        <img src={image} alt="image"/>
+        <img src={image} alt="image" />
       </div>
     </div>
   );
 };
+
+CreateWorkSpace.propTypes = {};
 
 export default CreateWorkSpace;
