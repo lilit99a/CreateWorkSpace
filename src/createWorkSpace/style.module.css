@@ -1,0 +1,35 @@
+.textCreateYou {
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 70px;
+  color: #000000;
+}
+.textCreateYouAndPic {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+.textLoremIpsum {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7d7c7c;
+}
+.learnMoreButton {
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background: #fe3c51;
+  color: white;
+  border: solid 1px #fe3c51;
+}
+.whatchVideo {
+  border: 1px solid white;
+  background: white;
+  cursor: pointer;
+}

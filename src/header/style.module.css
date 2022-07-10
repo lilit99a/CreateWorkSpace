@@ -1,0 +1,15 @@
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-left: 50px;
+}
+
+.navBar li {
+  margin-right: 30px;
+  color: #000000;
+}
+.navBar :hover {
+  cursor: pointer;
+  color: crimson;
+}
